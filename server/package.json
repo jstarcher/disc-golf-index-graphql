@@ -1,0 +1,16 @@
+{
+  "name": "disc-golf-index-graphql",
+  "version": "1.0.0",
+  "description": "db of disc golf discs",
+  "main": "index.js",
+  "author": "ducks",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.17.4",
+    "mongoose": "^5.5.10",
+    "nodemon": "^1.19.0"
+  }
+}

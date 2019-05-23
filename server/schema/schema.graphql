@@ -1,0 +1,25 @@
+type Query {
+  disc(id: ID): Disc!
+  discs: [Disc!]!
+  brand(id: ID): Brand!
+  brands: [Brand!]!
+}
+
+type Mutation {
+  addDisc(name: String!, stability: String!, primaryUse: String!, brandId: Int): Disc!
+}
+
+type Disc {
+  id: ID!
+  name: String!
+  stability: String!
+  primaryUse: String!
+  brandId: Int!
+  brand: Brand!
+}
+
+type Brand {
+  id: ID!
+  name: String!
+  country: String!
+}
