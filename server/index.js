@@ -3,7 +3,7 @@
 const { GraphQLServer } = require('graphql-yoga');
 const mongoose = require('mongoose');
 
-const DB_URL = 'mongodb://192.168.0.23:27017/DiscIndex';
+const DB_URL = 'mongodb://mongodb:27017/DiscIndex';
 
 mongoose.connect(DB_URL, { useNewUrlParser: true });
 
